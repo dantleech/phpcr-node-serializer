@@ -1,0 +1,30 @@
+{
+    "name": "phpcr/phpcr-node-serializer",
+    "description": "Node serialization library for PHPCR",
+    "require": {
+        "phpcr/phpcr": "~2.1",
+        "symfony/serializer": "~2.3",
+        "symfony/yaml": "~2.3"
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dantleech",
+            "email": "daniel@dantleech.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "PHPCR\\Shell\\Serializer\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
